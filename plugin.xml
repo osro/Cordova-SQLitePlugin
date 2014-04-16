@@ -8,7 +8,7 @@
 
     <description>A plugin developed for SQLite use with Phonegap. Forked from https://github.com/brodysoft/Cordova-SQLitePlugin</description>
     <author>Github user @brodysoft</author>
-
+    <license>MIT</license>
 
     <engines>
         <engine name="cordova" version=">=3.0.0" />
