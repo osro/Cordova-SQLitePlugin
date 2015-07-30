@@ -71,4 +71,16 @@
         <source-file src="src/ios/SQLitePlugin.m" />
         <framework src="libsqlite3.dylib" />
     </platform>
+
+    <!-- windows phone 8 -->
+    <platform name="wp8">
+        <config-file target="config.xml" parent="/widget">
+            <feature name="SQLitePlugin">
+                <param name="wp-package" value="SQLitePlugin" />
+            </feature>
+        </config-file>
+
+        <source-file src="src/wp8/SQLitePlugin.cs" />
+    </platform>
+
 </plugin>
